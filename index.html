@@ -71,11 +71,12 @@
         <form id="form1-1" class="form1"
         action="https://formcarry.com/s/q14nMwxwuPe"
         method="POST"
-        enctype="multipart/form-data">
+        enctype="multipart/form-data"
+        autocomplete="off">
 
-            <input class="inputs-form" placeholder="Seu Nome" type="text" name="Nome">
-            <input class="inputs-form" placeholder="Pokémon Favorito" type="text" name="Pokémon-Favorito">
-            <textarea placeholder="Experiências Pokémon" name="Texto"></textarea>
+            <input id="campo1" class="inputs-form" placeholder="Seu Nome" type="text" name="Nome" oninput="nomeValidate()">
+            <input id="campo2" class="inputs-form" placeholder="Pokémon Favorito" type="text" name="Pokémon-Favorito">
+            <textarea id="campo3" placeholder="Experiências Pokémon" name="Texto"></textarea>
 
             <button class="button2" type="submit"> Enviar </button>
 

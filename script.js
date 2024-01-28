@@ -39,3 +39,10 @@ function Dados(){
 
 
 enviarDados.addEventListener("click", Dados)
+
+
+const formularioCampos = document.querySelector(".form1")
+
+const campos = document.querySelectorAll(".inputs-form")
+
+

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap') ;
+
+ * {   
+    font-family: "Manrope", sans-serif ;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+
+    width: 100vw;
+
+}
+
+.section1{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+    
+}
+
+.image1{
+    width: 700px ;
+    height: 180px ;
+    
+}
+
+
+.button1{
+
+    font-size: 16px;
+    width: 230px;
+    height: 50px;
+    padding: 2px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.button1:hover{
+
+    width: 240px;
+    height: 55px;
+    font-size: 17px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.image2{
+
+    width: 480px;
+    
+}
+
+.caixa1{
+
+    width: 50%;
+    text-align: justify;
+
+}
+
+.caixa2{
+
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    
+}
+
+video{
+
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    
+    
+}
+
+.fundoLinear{
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.9) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.9) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+
+.paragrafo1{
+
+    font-size: 23px;
+
+}
+
+.link img{
+
+    width: 78px;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+
+}
+
+.opcoes{
+    
+    width: 60vw;
+    display: flex;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    justify-content: space-evenly;
+    align-items: center;
+    word-spacing: 3px;
+
+    
+}
+
+
+
+.opcoes img{
+
+    width: 95px;
+}
+
+.link2{
+
+    cursor: pointer;
+    transition-duration: 0.7s;
+    color: white;
+    text-decoration: none;
+}
+
+.link2:hover{
+
+    color: yellow;
+    font-size: 27px;
+    transition: 0.5s ease-in-out;
+    
+
+
+}
+
+.form1{
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -369px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    gap: 18px;
+    z-index: 1;
+
+
+
+}
+
+.inputs-form{
+
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    outline-color: red;
+    border-color: gray;
+}
+
+textarea{
+
+    height: 180px ;
+    width: 330px ;
+    padding-left: 5px;
+    padding-top: 2px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    outline-color: red;
+    border-color: gray;
+    resize: none;
+}
+
+
+.button2{
+
+    font-size: 16px;
+    width: 280px;
+    height: 50px;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+
+}
+
+.mascara-form{
+
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.6460959383753502) 50%, rgba(0,0,0,0.8) 70%);
+
+}
+
